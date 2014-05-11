@@ -1,0 +1,12 @@
+SELECT ATTRIBUTE(S):
+cust,prod,1_sum_quant,2_sum_quant,3_sum_quant
+NUMBER OF GROUPING VARIABLES(n):
+3
+GROUPING ATTRIBUTES(V):
+cust,prod
+F-VECT([F]):
+1_sum_quant,2_sum_quant,3_sum_quant
+SELECT CONDITION-VECT([σ]):
+1_state = "NY" AND 1_year = 1990
+2_state = "NJ" AND 2_year = 1990
+3_state = "CT" AND 3_year = 1990
